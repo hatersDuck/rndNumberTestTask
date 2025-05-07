@@ -1,0 +1,23 @@
+{
+    "name": "rnd-number-test-task",
+    "version": "1.0.0",
+    "description": "test task for evercode",
+    "main": "srs/app.ts",
+    "scripts": {
+        "start": "node dist/app.js",
+        "dev": "nodemon src/app.ts",
+        "build": "tsc"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^5.1.0",
+        "nodemon": "^3.1.10",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.8.3"
+    },
+    "devDependencies": {
+        "@types/express": "^5.0.1",
+        "@types/node": "^22.15.14"
+    }
+}

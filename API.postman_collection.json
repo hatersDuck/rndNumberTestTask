@@ -1,0 +1,53 @@
+{
+    "info": {
+        "_postman_id": "4388e715-ddc4-461c-af95-5a4b40bd7e65",
+        "name": "Test Task V.D.V API",
+        "description": "",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+        "_exporter_id": "44466443",
+        "_collection_link": "https://danilavaltyshev.postman.co/workspace/Danila-Valtyshev's-Workspace~9786c1db-81b4-4af6-890c-4f23aa6dc14a/collection/44466443-4388e715-ddc4-461c-af95-5a4b40bd7e65?action=share&source=collection_link&creator=44466443"
+    },
+    "item": [
+        {
+            "name": "Generate Random Number",
+            "request": {
+                "method": "POST",
+                "header": [],
+                "body": {
+                    "mode": "raw",
+                    "raw": "",
+                    "options": {
+                        "raw": {
+                            "language": "json"
+                        }
+                    }
+                },
+                "url": {
+                    "raw": "http://localhost:3000/",
+                    "protocol": "http",
+                    "host": ["localhost"],
+                    "port": "3000",
+                    "path": [""]
+                },
+                "description": "Generates a random number between 1 and 1000 and stores it"
+            },
+            "response": []
+        },
+        {
+            "name": "Retrieve Generated Number",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "http://localhost:3000/1",
+                    "protocol": "http",
+                    "host": ["localhost"],
+                    "port": "3000",
+                    "path": ["1"]
+                },
+                "description": "Retrieves a previously generated number by its ID"
+            },
+            "response": []
+        }
+    ]
+}
